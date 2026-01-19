@@ -1,16 +1,20 @@
-function Section() {
+function Section({ title, items }) {
   return (
     <section>
-      <h2>¿Qué vas a aprender?</h2>
+      <h2>
+        {title}
+      </h2>
 
       <ul>
-        <li>Cómo funciona React desde cero</li>
-        <li>Crear y reutilizar componentes</li>
-        <li>Organizar un proyecto real</li>
-        <li>Construir una landing page completa</li>
+        {items.map((item, index) => (
+          <li key={index}>
+            {item}
+          </li>
+        ))}
       </ul>
     </section>
   );
 }
 
 export default Section;
+
