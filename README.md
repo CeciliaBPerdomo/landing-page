@@ -6,7 +6,9 @@
 Este proyecto consiste en una landing page básica desarrollada como práctica de maquetación y estructura web. La idea es simple y clásica (porque lo que funciona, funciona): una página clara, directa y enfocada en comunicar un mensaje principal.
 
 <div align="center"> 
-    <img src="./LandingPage.png" alt="Landing page" />
+    <img src="./image.png" alt="Landing page" />
+    <img src="./image-1.png" alt="Landing page" />
+    <img src="./image-2.png" alt="Landing page" />
 </div>
 
 La landing incluye las secciones esenciales:
